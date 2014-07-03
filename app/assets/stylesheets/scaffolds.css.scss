@@ -45,6 +45,14 @@ div {
   display: table;
 }
 
+#tag_cloud {
+  width: 400px;
+  line-height: 1.6em;
+  .s { font-size: 0.8em; color:red; }
+  .m { font-size: 1.2em; color:blue; }
+  .l { font-size: 1.8em; color:green; }
+}
+
 #error_explanation {
   width: 450px;
   border: 2px solid red;
