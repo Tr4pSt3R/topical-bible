@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140702051019) do
+ActiveRecord::Schema.define(version: 20140705060410) do
 
   create_table "articles", force: true do |t|
     t.string   "title"
-    t.text     "content",    limit: 255
+    t.text     "content",         limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "cross_reference"
   end
 
   create_table "taggings", force: true do |t|
