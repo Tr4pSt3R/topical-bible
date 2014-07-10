@@ -10,6 +10,12 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.2.0'
 
+# HTML Mark-up
+gem 'haml', '~> 4.0.5'
+
+# Add browser vendor prefixes automatically
+gem 'autoprefixer-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
