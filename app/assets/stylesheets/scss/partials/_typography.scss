@@ -1,1 +1,7 @@
-body { background:$brand-primary; }
+@font-face { 
+	font-family: 'Quattrocento Sans';
+	font-style:normal;
+	src: url('/assets/fonts/QuattrocentoSans-Regular.ttf') format('truetype'); 
+}
+
+body { background:$brand-primary; font-family: 'Quattrocento_Sans';}
